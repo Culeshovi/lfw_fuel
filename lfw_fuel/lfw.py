@@ -14,6 +14,9 @@ from fuel.converters.base import fill_hdf5_file, check_exists, progress_bar
 from fuel.downloaders.base import default_downloader
 from fuel.datasets import H5PYDataset
 from fuel.transformers.defaults import uint8_pixels_to_floatX
+from fuel import config
+config.data_path = 'content/'
+
 from fuel.utils import find_in_data_path
 
 """
