@@ -82,4 +82,4 @@ class Dataset(object):
 
 # again, this is an template for subclasses
 def load_data(sets=None, sources=None, fuel_dir=False):
-return Dataset().load_data(sets, sources, fuel_dir);
+    return Dataset().load_data(sets, sources, fuel_dir);
