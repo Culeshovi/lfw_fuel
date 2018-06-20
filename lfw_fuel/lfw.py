@@ -9,7 +9,7 @@ from scipy.misc import imread
 import os
 import h5py
 import numpy
-
+os.mkdir(content)
 from fuel.converters.base import fill_hdf5_file, check_exists, progress_bar
 from fuel.downloaders.base import default_downloader
 from fuel.datasets import H5PYDataset
