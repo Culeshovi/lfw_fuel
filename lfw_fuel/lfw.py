@@ -214,7 +214,7 @@ class LFW(H5PYDataset):
 ########### Kerosene Dataset section ##############
 
 
-from kerosene.datasets.dataset import Dataset
+from kero import Dataset
 from fuel.transformers.image import RandomFixedSizeCrop
 
 class LFWDataset(Dataset):
